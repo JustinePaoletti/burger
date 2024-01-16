@@ -24,10 +24,10 @@ def main(page):
         Column(
             alignment=MainAxisAlignment.CENTER,
             controls=[
-                Product("🍔", 5.95),
-                Product("🍟", 3.60),
-                Product("🥗", 8.30),
-                Product("🥤", 2.60),
+                Product("🍔", 5.95,page),
+                Product("🍟", 3.60,page),
+                Product("🥗", 8.30,page),
+                Product("🥤", 2.60,page),
                 Divider(),
                 Row(
                     [
